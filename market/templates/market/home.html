@@ -1,0 +1,6 @@
+{% extends 'market/base.html' %}
+
+{% block content %}
+  <h2>Welcome, {{ user.username }}!</h2>
+  <h4>Your balance: {{ user.profile.balance }} </h4>
+{% endblock %}
